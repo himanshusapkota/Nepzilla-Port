@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu||Nepzilla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+    <body>
+
+
+<div id="loader">
+  <div class="loader-logo">HS.</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+
+
+<div id="scroll-progress"></div>
+
+
+<div id="toast"><i class="fa fa-check-circle" style="color:var(--primary)"></i><span id="toast-msg">Message sent!</span></div>
+
+
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">HS.</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="theme-btn" id="themeToggle" title="Toggle theme">
+      <i class="fa fa-moon" id="themeIcon"></i>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#skills" class="mobile-link">Skills</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#services" class="mobile-link">Services</a>
+  <a href="#experience" class="mobile-link">Experience</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+  <button class="theme-btn" id="themeToggleMobile">
+    <i class="fa fa-moon" id="themeIconMobile"></i>
+  </button>
+</div>
+
+
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="grid-bg"></div>
+  <div class="floating-orb orb1"></div>
+  <div class="floating-orb orb2"></div>
+  <div class="floating-orb orb3"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Available for freelance work
+    </div>
+    <h1 class="hero-name">Hi, I'm <span>Himanshu</span><br>Sapkota</h1>
+    <p class="hero-typing" id="typingText"><span id="typed"></span><span class="typing-cursor"></span></p>
+    <p class="hero-desc">Passionate about creating modern, responsive, and user-friendly digital experiences. Blending clean code with thoughtful design.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary"><i class="fa fa-eye"></i> View Projects</a>
+      <a href="#contact" class="btn btn-outline"><i class="fa fa-handshake"></i> Hire Me</a>
+      <a href="#" class="btn btn-outline" id="cvBtn"><i class="fa fa-download"></i> Download CV</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal-left">
+        <div class="about-avatar">👨‍💻
+          <div class="about-stats">
+            <div class="stat-card"><div class="stat-num">3+</div><div class="stat-label">Years Exp</div></div>
+            <div class="stat-card"><div class="stat-num">7+</div><div class="stat-label">Projects</div></div>
+            <div class="stat-card"><div class="stat-num">100%</div><div class="stat-label">Dedication</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <div>
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">Crafting Digital <span>Experiences</span></h2>
+        </div>
+        <p class="about-bio">I'm a passionate Web Developer & Graphics Designer based in Nepal with 3+ years of hands-on experience building modern, responsive websites and crafting visually compelling designs. I thrive at the intersection of clean code and beautiful aesthetics.</p>
+        <p class="about-bio">Currently exploring the world of <strong style="color:var(--primary)">Python and AI/ML</strong>, pushing my boundaries beyond frontend development toward intelligent, data-driven applications. I believe in continuous learning and creative problem-solving.</p>
+        <div class="about-highlights">
+          <div class="highlight"><i class="fa fa-code"></i> Frontend web development with HTML, CSS & JavaScript</div>
+          <div class="highlight"><i class="fa fa-palette"></i> UI/UX design using Figma, Canva & Adobe Photoshop</div>
+          <div class="highlight"><i class="fa fa-brain"></i> Currently learning Python & exploring AI/ML</div>
+          <div class="highlight"><i class="fa fa-users"></i> Collaborative freelancer with strong communication</div>
+          <div class="highlight"><i class="fa fa-mobile-screen"></i> Mobile-first, responsive design approach</div>
+        </div>
+        <div class="hero-btns" style="justify-content:flex-start">
+          <a href="#contact" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills">
+  <div class="container">
+    <div class="reveal" style="text-align:center;max-width:600px;margin:0 auto 0">
+      <div class="section-label">My Arsenal</div>
+      <h2 class="section-title">Skills & <span>Technologies</span></h2>
+      <p class="section-sub" style="margin:0 auto">Tools and technologies I use to bring ideas to life — from pixel-perfect designs to functional, performant code.</p>
+    </div>
+    <div class="skills-grid" id="skillsGrid">
+      
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">My Work</div>
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <p class="section-sub">A selection of projects that showcase my development and design capabilities.</p>
+    </div>
+    <div class="projects-grid" id="projectsGrid"><!-- filled by JS --></div>
+  </div>
+</section>
+
+
+<section id="services">
+  <div class="container">
+    <div class="reveal" style="text-align:center;max-width:600px;margin:0 auto">
+      <div class="section-label">What I Offer</div>
+      <h2 class="section-title">My <span>Services</span></h2>
+      <p class="section-sub" style="margin:0 auto">End-to-end digital solutions — from crafting your brand identity to shipping production-ready web experiences.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"><!-- filled by JS --></div>
+  </div>
+</section>
+
+
+<section id="experience">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">My Journey</div>
+      <h2 class="section-title">Work <span>Experience</span></h2>
+      <p class="section-sub">A timeline of meaningful work, creative challenges, and continuous growth.</p>
+    </div>
+    <div class="timeline" id="timelineEl"><!-- filled by JS --></div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Let's Talk</div>
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <p class="section-sub">Have a project in mind? I'd love to hear from you. Send a message and I'll get back to you as soon as possible.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <a href="mailto:himanshuspkt@gmail.com" class="contact-card">
+          <div class="contact-card-icon"><i class="fa fa-envelope"></i></div>
+          <div><div class="contact-card-label">Email</div><div class="contact-card-val">himanshuspkt@gmail.com</div></div>
+        </a>
+        <a href="https://www.linkedin.com/in/himanshusapkota/" target="_blank" class="contact-card">
+          <div class="contact-card-icon" style="background:linear-gradient(135deg,#0077b5,#00a0dc)"><i class="fab fa-linkedin-in"></i></div>
+          <div><div class="contact-card-label">LinkedIn</div><div class="contact-card-val">Himanshu Sapkota</div></div>
+        </a>
+        <a href="https://www.instagram.com/himanshu_sapkota" target="_blank" class="contact-card">
+          <div class="contact-card-icon" style="background:linear-gradient(135deg,#e1306c,#f77737,#833ab4)"><i class="fab fa-instagram"></i></div>
+          <div><div class="contact-card-label">Instagram</div><div class="contact-card-val">@himanshu_sapkota</div></div>
+        </a>
+        <div style="padding-top:0.5rem">
+          <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem">Follow me on social media</p>
+          <div class="social-links">
+            <a href="mailto:himanshuspkt@gmail.com" class="social-link" title="Email"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/himanshusapkota/" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/hmanshu_sapkota" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="contact-form" id="contactForm">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input class="form-input" type="text" placeholder="John Doe" id="f-name">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input class="form-input" type="email" placeholder="john@email.com" id="f-email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Subject</label>
+            <input class="form-input" type="text" placeholder="Project Inquiry" id="f-subject">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell me about your project..." id="f-message"></textarea>
+          </div>
+          <button class="btn btn-primary" onclick="submitForm()" style="cursor:none">
+            <i class="fa fa-paper-plane"></i> Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <span class="footer-logo">Himanshu Sapkota</span>
+    <span class="footer-copy">© 2025 Himanshu Sapkota. Crafted with ❤️</span>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
